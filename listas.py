@@ -1,34 +1,34 @@
 # listas intoduccon
 
-# arrai = ["futbol", "pc", 18.7, 18, [5,5,8], True, False]
+arrai = ["futbol", "pc", 18.7, 18, [5,5,8], True, False]
 
 
-# # el "[5]", es el numeor de dato que necedito, en este caso es el true, comienzan desde el 0
-# print(arrai[-3])
+# el "[5]", es el numeor de dato que necedito, en este caso es el true, comienzan desde el 0
+print(arrai[-3])
 
-# # si quiero usar para solamente un bloque, se le agrega un rango.
-# print(arrai[2:-1])
+# si quiero usar para solamente un bloque, se le agrega un rango.
+print(arrai[2:-1])
 
 # lsitas mis cosas
 
 
-# # se pueden llamar listas dentro de listas.
-# musica = ["gitarra", "flauta", "violin"]
+# se pueden llamar listas dentro de listas.
+musica = ["gitarra", "flauta", "violin"]
 
-# deporte = ["futbol", "spining", "basquetbool"]
+deporte = ["futbol", "spining", "basquetbool"]
 
-# comida = ["papa", "verduras", "pan"]
+comida = ["papa", "verduras", "pan"]
 
-# Conjuntos = [comida, deporte, musica]
+Conjuntos = [comida, deporte, musica]
 
-# conjuntos2 = [comida, deporte]
+conjuntos2 = [comida, deporte]
 
-# conjuntos3 = [musica,deporte]
+conjuntos3 = [musica,deporte]
 
 
-# print(musica)
+print(musica)
 
-# print(conjuntos2)
+print(conjuntos2)
 
 
 # listas
@@ -60,7 +60,6 @@ print(f"Datos que ingresaste junto a datos extras: {arrai2} {arrai}")
 
 
 # puedes concatenar diferentes listas:
-
 arra3 = [True, False, "pito", 44.5]
 print(f"etas es otra lisat: {arra3}")
 
@@ -96,7 +95,7 @@ print(arrai)
 Acccion = input("que deas hacer: (solo existe la funcion clear) ")
 if Acccion == "clear": 
     arrai.clear()
-    print(arrai)
+    print(arrai)    
 else: 
     print("solo se peude la funcion clrear")
 
